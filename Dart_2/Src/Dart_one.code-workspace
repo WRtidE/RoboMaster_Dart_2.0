@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"motor.h": "c",
+			"can.h": "c",
+			"bsp_can.h": "c"
+		}
+	}
+}

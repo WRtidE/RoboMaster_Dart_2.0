@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "can_receive.h": "c",
+        "motor.h": "c",
+        "struct_typedef.h": "c",
+        "dart_shoot.h": "c",
+        "cmsis_os.h": "c"
+    }
+}
