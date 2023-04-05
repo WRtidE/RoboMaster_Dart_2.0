@@ -32,7 +32,8 @@ typedef struct
 typedef struct 
 {
     dart_motor_t motor[5];     //四个发射电机3508,一个装填电机2006
-    pid_struct_t motor_speed_pid[5];    //四个电机的pid
+    pid_struct_t motor_speed_pid[5];    //四个电机的加速pid
+    pid_struct_t motor_reset_pid[5];    //四个电机的减速pid
 
     uint8_t dart_state; //飞镖状态标志位
     uint8_t yaw_state; //飞镖yaw轴状态标志位
